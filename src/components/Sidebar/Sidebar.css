@@ -1,0 +1,73 @@
+.sidebar {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .sidebar:hover{
+    box-shadow: 4px 8px 16px #06a3f8;
+  
+  }
+  .sidebar-profile p{
+color: black;
+  }
+  .sidebar-stats p{
+    color: black;
+  }
+  .sidebar-hashtags p{
+    color: black;
+  }
+  .cover-img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    border: 3px solid white;
+  }
+  
+  h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  p {
+    color: rgb(14, 14, 14);
+    font-size: 14px;
+  }
+  
+  .sidebar-stats {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #0073b1;
+  }
+  
+  .sidebar-hashtags p {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .sidebar-hashtags p:hover {
+    background-color: #f3f3f3;
+  }
+  

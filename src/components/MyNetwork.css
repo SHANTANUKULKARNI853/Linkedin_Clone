@@ -1,0 +1,86 @@
+.network-page {
+  padding: 20px;
+  background-color: #f3f2ef;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.connections-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.connection-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.connection-card p {
+  color: black;
+}
+
+.connection-card:hover {
+  box-shadow: 4px 8px 16px #06a3f8;
+}
+
+.connection-card.connected {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.connected-text {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: green;
+  background-color: #e6f4ea;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(11, 11, 11);
+  margin-bottom: 10px;
+}
+
+.connect-btn {
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.connect-btn:hover {
+  background-color: #005582;
+}
